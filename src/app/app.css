@@ -1,0 +1,64 @@
+.group {
+  display: flex;
+}
+
+.group__avatar {
+  border-radius: 50%;
+}
+
+.group__name {
+  font-size: 1rem;
+}
+
+.group__avatar_initials {
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.group__friends-container {
+  position: absolute;
+  background-color: white;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.group__friends-text:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.group__friends-container-text {
+  margin: 0;
+}
+
+.group_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 0 20px;
+}
+
+.group-item {
+  border: 2px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 450px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.group-item__info {
+  padding: 8px;
+}
+
+.filtration {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0 15px 20px;
+}
