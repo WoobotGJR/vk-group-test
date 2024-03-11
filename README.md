@@ -1,4 +1,4 @@
-<h1 align="center">Тестовое задания для vk-groups</h1>
+<h1 align="center">Тестовое задание для vk-groups</h1>
 
 <a name="summary">
   <details>
